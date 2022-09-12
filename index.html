@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--DOCTYPE只是一種類似宣告的方式，讓瀏覽器知道使用的html是什麼版本-->
+<html lang="en" dir="ltr">
+<!--stands for words direction from "left to right"-->
+<head>
+  <meta charset="utf-8">
+  <!--<title> 、 <base> 、 <link> 、 <style> 、 <script>等元素都有於網頁上呈現的特定內容，除此外都以<meta>做呈現-->
+  <!--"https://pydoing.blogspot.com/2012/01/html-5-meta.html"-->
+  <title>♥CJ's Personal Site</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td><img src="images/biscuit.png" alt="profile picture"></td>
+      <td><h1>CJ Chang</h1>
+      <p>A <strong><a href="https://blog.hubspot.com/website/how-to-start-coding">beginner</a></strong> learning programming in the beginning</p>
+      <p>I am a person who like to create my own website by programming to see how far I could go.</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>Learning Html, CSS and Javascript</h3>
+  <ul>
+  <!--unorder list, bullet points-->
+    <li>totally a new beginner</li>
+    <li>have an interest in programming</li>
+        <ul>
+            <li>start from web development</li>
+            <li>from front-end to backend</li>
+        </ul>
+    <li>learn everyday and make it simple</li>
+  </ul>
+  <hr>
+
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Works</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!--建立一橫向表格形式-->
+        <td>2022 - present</td>
+        <!--藉由上面設定的橫向形式，列出來的table cell就會ltr排序-->
+        <td>Learning Web Development</td>
+      </tr>
+      <tr>
+        <td>2018 - present</td>
+        <td>Body Building</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <!--先建立一個表格形式-->
+    <tr>
+      <!--設定橫向機制-->
+      <td>
+        <!--建立第一個table cell-->
+        <table>
+          <!--第一個cell中，再建立一個小表格，因為有名字&emoji-->
+          <tr>
+            <td>Html</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <!--建立第二個table cell-->
+        <table>
+          <!--第二個欄位中一樣建立小表格-->
+          <tr>
+            <td>Workouts</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Premiere pro</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!--作者的做法是一塊一塊做區分，完成第一塊欄位後（名字&emoji），再往右建立第二塊-->
+  <!--而我一開始的做法則為一列一列設定，也沒錯，但每橫跨一個欄位（名字&emoji），就必須往回找到對應的名字&emoji，再在它的下面建立td tag，較不直觀-->
+  <hr>
+
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <a href="contact-me.html">Contact Me</a>
+
+</body>
+
+</html>
